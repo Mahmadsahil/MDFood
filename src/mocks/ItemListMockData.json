@@ -1,0 +1,131 @@
+[
+    {
+        "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+            "info": {
+                "id": "848301",
+                "name": "Vanilla With Coffee Sauce",
+                "category": "Vanilla Combinations",
+                "description": "A combination of vanilla ice cream with coffee sauce",
+                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/26/659729ef-fe27-4dd6-9b24-afffd9f3dfed_5bb6620e-ed4c-4d78-815c-7bb0b2875000.jpg",
+                "inStock": 1,
+                "isVeg": 1,
+                "price": 12500,
+                "variants": {},
+                "variantsV2": {},
+                "itemAttribute": {
+                    "vegClassifier": "VEG"
+                },
+                "ribbon": {},
+                "type": "ITEM",
+                "itemBadge": {},
+                "badgesV2": {},
+                "ratings": {
+                    "aggregatedRating": {
+                        "rating": "5.0",
+                        "ratingCount": "69 ratings",
+                        "ratingCountV2": "69"
+                    }
+                }
+            },
+            "analytics": {},
+            "hideRestaurantDetails": true
+        }
+    },
+    {
+        "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+            "info": {
+                "id": "848302",
+                "name": "Vanilla With Butterscotch Sauce",
+                "category": "Vanilla Combinations",
+                "description": "A combination of vanilla ice cream with butterscotch sauce and peanut praline",
+                "inStock": 1,
+                "isVeg": 1,
+                "price": 12500,
+                "variants": {},
+                "variantsV2": {},
+                "itemAttribute": {
+                    "vegClassifier": "VEG"
+                },
+                "ribbon": {},
+                "type": "ITEM",
+                "itemBadge": {},
+                "badgesV2": {},
+                "ratings": {
+                    "aggregatedRating": {
+                        "rating": "4.2",
+                        "ratingCount": "47 ratings",
+                        "ratingCountV2": "47"
+                    }
+                }
+            },
+            "analytics": {},
+            "hideRestaurantDetails": true
+        }
+    },
+    {
+        "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+            "info": {
+                "id": "848303",
+                "name": "Vanilla With Mint Sauce",
+                "category": "Vanilla Combinations",
+                "description": "A combination of vanilla ice cream with mint sauce",
+                "inStock": 1,
+                "isVeg": 1,
+                "price": 12500,
+                "variants": {},
+                "variantsV2": {},
+                "itemAttribute": {
+                    "vegClassifier": "VEG"
+                },
+                "ribbon": {},
+                "type": "ITEM",
+                "itemBadge": {},
+                "badgesV2": {},
+                "ratings": {
+                    "aggregatedRating": {
+                        "rating": "4.8",
+                        "ratingCount": "49 ratings",
+                        "ratingCountV2": "49"
+                    }
+                }
+            },
+            "analytics": {},
+            "hideRestaurantDetails": true
+        }
+    },
+    {
+        "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+            "info": {
+                "id": "848304",
+                "name": "Vanilla With Strawberry Sauce",
+                "category": "Vanilla Combinations",
+                "description": "A combination of vanilla ice cream with strawberry sauce",
+                "inStock": 1,
+                "isVeg": 1,
+                "price": 12500,
+                "variants": {},
+                "variantsV2": {},
+                "itemAttribute": {
+                    "vegClassifier": "VEG"
+                },
+                "ribbon": {},
+                "type": "ITEM",
+                "itemBadge": {},
+                "badgesV2": {},
+                "ratings": {
+                    "aggregatedRating": {
+                        "rating": "5.0",
+                        "ratingCount": "8 ratings",
+                        "ratingCountV2": "8"
+                    }
+                }
+            },
+            "analytics": {},
+            "hideRestaurantDetails": true
+        }
+    }
+]

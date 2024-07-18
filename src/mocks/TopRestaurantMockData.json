@@ -1,0 +1,110 @@
+{
+    "info": {
+        "id": "281469",
+        "name": "Lavonne",
+        "cloudinaryImageId": "emlehbuwgsmryxhwzhvq",
+        "locality": "St. Marks Road",
+        "areaName": "St. Marks Road",
+        "costForTwo": "₹750 for two",
+        "cuisines": [
+            "Bakery",
+            "Desserts"
+        ],
+        "avgRating": 4.6,
+        "parentId": "10530",
+        "avgRatingString": "4.6",
+        "totalRatingsString": "1K+",
+        "sla": {
+            "deliveryTime": 34,
+            "lastMileTravel": 2.3,
+            "serviceability": "SERVICEABLE",
+            "slaString": "30-35 mins",
+            "lastMileTravelString": "2.3 km",
+            "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+            "nextCloseTime": "2024-07-17 00:00:00",
+            "opened": true
+        },
+        "badges": {
+            "imageBadges": [
+                {
+                    "imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png",
+                    "description": "OnlyOnSwiggy"
+                },
+                {
+                    "imageId": "v1669879258/GFF_logo_new_xbycg6.png",
+                    "description": "gourmet"
+                }
+            ],
+            "textExtendedBadges": [
+                {
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "shortDescription": "options available",
+                    "fontColor": "#7E808C"
+                }
+            ]
+        },
+        "isOpen": true,
+        "aggregatedDiscountInfoV2": {},
+        "type": "F",
+        "badgesV2": {
+            "entityBadges": {
+                "imageBased": {
+                    "badgeObject": [
+                        {
+                            "attributes": {
+                                "description": "OnlyOnSwiggy",
+                                "imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png"
+                            }
+                        },
+                        {
+                            "attributes": {
+                                "description": "gourmet",
+                                "imageId": "v1669879258/GFF_logo_new_xbycg6.png"
+                            }
+                        }
+                    ]
+                },
+                "textBased": {},
+                "textExtendedBadges": {
+                    "badgeObject": [
+                        {
+                            "attributes": {
+                                "description": "",
+                                "fontColor": "#7E808C",
+                                "iconId": "guiltfree/GF_Logo_android_3x",
+                                "shortDescription": "options available"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {},
+                "video": {}
+            }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {},
+        "externalRatings": {
+            "aggregatedRating": {
+                "rating": "4.4",
+                "ratingCount": "1K+"
+            },
+            "source": "GOOGLE",
+            "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+    },
+    "analytics": {},
+    "cta": {
+        "link": "https://www.swiggy.com/restaurants/lavonne-st-marks-road-bangalore-281469",
+        "type": "WEBLINK"
+    }
+}

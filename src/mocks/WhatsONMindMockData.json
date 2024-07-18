@@ -1,0 +1,18 @@
+{
+    "id": "750643",
+    "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Idli.png",
+    "action": {
+        "link": "https://www.swiggy.com/collections/80440?collection_id=80440&tags=layout_CCS_Idli&type=rcv2",
+        "text": "Idli",
+        "type": "WEBLINK"
+    },
+    "entityType": "BANNER",
+    "accessibility": {
+        "altText": "restaurants curated for idly",
+        "altTextCta": "open"
+    },
+    "entityId": "swiggy://collectionV2?collection_id=80440&tags=layout_CCS_Idli",
+    "frequencyCapping": {},
+    "externalMarketing": {},
+    "description": "Idli"
+}
