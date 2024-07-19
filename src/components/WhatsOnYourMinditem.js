@@ -20,7 +20,7 @@ const WhatsOnYourMinditem = () => {
                         whatsOnMindData2.length !== 0 ?
                             (cards.map((data, idx) => data?.card?.card?.info && (
                                 <div key={idx} className='w-full md:w-1/2 lg:w-1/3 xl:w-1/4 px-2 mb-4'>
-                                    <Suspense className={<ResCardShimmer />}>
+                                    <Suspense className={<ResCardShimmer/>}>
                                         <Restorants key={idx} resData={data?.card?.card} />
                                     </Suspense>
                                 </div>

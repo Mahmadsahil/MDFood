@@ -54,7 +54,7 @@ const WhatsOnYourMind = () => {
     return (
         <div className='w-full flex mx-2 justify-start items-center overflow-x-scroll' data-testid='WhatsOnMindTest'>
             {
-                whatsOnMindData ? (whatsOnMindData.filter(item => item?.entityId.length < 6).map(item => item && (
+                whatsOnMindData ? (whatsOnMindData.filter(item => item?.entityId.length > 0).map(item => item && (
                     <Link
                         to='/mind'
                         rel="preload"

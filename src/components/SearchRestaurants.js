@@ -1,11 +1,11 @@
 import React, { Suspense, lazy, useEffect, useState } from 'react'
 import  { RestauranPromoted } from './Restorants';
-import ResCardShimmer from '../Shimmer/resCardShimmer';
 import { useSelector } from 'react-redux';
 import Shimmer from "../Shimmer/Shimmer"
 import { Link } from "react-router-dom";
 import SearchShimmer from '../Shimmer/SearchShimmer';
 import { IoArrowBackSharp } from 'react-icons/io5';
+import ResCardShimmer from '../Shimmer/ResCardShimmer';
 const Restorants = lazy(() => import('./Restorants'));
 
 
@@ -16,8 +16,6 @@ const SearchRestaurants = () => {
     const [searchText, setsearchText] = useState("");
     const [deliveryTime, setDeliveryTime] = useState('');
     const RestaurantData = useSelector(state => state.app.restaurantList);
-    console.log("RestaurantData1", RestaurantData)
-    console.log("listOfRestaurant1", listOfRestaurant)
     useEffect(() => {
         setlistOfRestaurant(RestaurantData);
     }, [RestaurantData]);
@@ -83,7 +81,7 @@ const SearchRestaurants = () => {
                             {restaurant?.info.promoted ? (
                                 <RestauranPromoted resData={restaurant} />
                             ) : (
-                                <Suspense fallback={<ResCardShimmer />}>
+                                <Suspense fallback={<ResCardShimmer/>}>
                                     <Restorants resData={restaurant} />
                                 </Suspense>
                             )}

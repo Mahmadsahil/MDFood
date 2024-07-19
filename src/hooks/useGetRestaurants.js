@@ -20,10 +20,6 @@ const useGetRestaurants = (pageCount) => {
     const gottopRestaurantChainsHeaderMock = Restaurant_API_Data?.data?.cards[1]?.card?.card?.header?.title;
     const restaurantsHeaderMock = Restaurant_API_Data?.data?.cards[2]?.card?.card?.title;
     const restaurantsListMock = Restaurant_API_Data?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants || [];
-    console.log("topRestaurantChainsMock", topRestaurantChainsMock)
-    console.log("gottopRestaurantChainsHeaderMock", gottopRestaurantChainsHeaderMock)
-    console.log("restaurantsHeaderMock", restaurantsHeaderMock)
-    console.log("restaurantsListMock", restaurantsListMock)
     const fetchRestaurantsData = async (pageCount) => {
         try {
             setIsFetching(true);
@@ -39,7 +35,6 @@ const useGetRestaurants = (pageCount) => {
             const gottopRestaurantChainsHeader = (jsonData?.data?.cards[1]?.card?.card?.header?.title || gottopRestaurantChainsHeaderMock);
             const restaurantsHeader = (jsonData?.data?.cards[2]?.card?.card?.title || restaurantsHeaderMock);
             const restaurantsList = (jsonData?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants || restaurantsListMock);
-            console.log("jsonData", (jsonData || Restaurant_API_Data));
 
             setlistOfRestaurant1(restaurantsList);
 
@@ -64,7 +59,6 @@ const useGetRestaurants = (pageCount) => {
 
     const updateFiltered = (data) => {
         setlistOfRestaurant2(data);
-        console.log("data", data);
     }
 
     return {

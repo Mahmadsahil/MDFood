@@ -3,7 +3,6 @@ import ItemCardShimmer from '../Shimmer/ItemCardShimmer'
 const ItemCard = lazy(() => import('./ItemCard'))
 
 const ItemList = ({ items, showBtn }) => {
-    console.log("ItemList", items)
 
     return (
         <div data-testid="ItemList">

@@ -2,8 +2,7 @@ import React, { useState, useEffect, useContext, lazy, Suspense } from "react";
 import Shimmer from "../Shimmer/Shimmer";
 import { resList } from "../utils/mockData"
 import { Link } from "react-router-dom";
-import UserContext from "../utils/UserContext";
-import ResCardShimmer from "../Shimmer/resCardShimmer";
+import ResCardShimmer from "../Shimmer/ResCardShimmer";
 import { RestauranPromoted } from "./Restorants";
 import { MdFilterList, MdFilterListOff } from "react-icons/md";
 import Restaurant_API_Data from "../mocks/Restaurant_API_Data.json"

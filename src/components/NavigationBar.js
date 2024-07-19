@@ -2,7 +2,6 @@ import React from 'react';
 import { useContext, useState } from "react";
 import { LOGO_URL } from "../utils/links"
 import { Link } from "react-router-dom";
-import UserContext from "../utils/UserContext";
 import { useDispatch, useSelector } from "react-redux";
 import { PiShoppingCartSimpleThin } from "react-icons/pi";
 import { addCartBtnValues } from "../utils/cartSlice";
