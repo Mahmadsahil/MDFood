@@ -1,6 +1,6 @@
 import React, { lazy, Suspense } from 'react';
 import { useSelector } from 'react-redux';
-import ResCardShimmer from '../Shimmer/resCardShimmer';
+import ResCardShimmer from '../Shimmer/ResCardShimmer';
 const Restorants = lazy(() => import('./Restorants'));
 
 const WhatsOnYourMinditem = () => {

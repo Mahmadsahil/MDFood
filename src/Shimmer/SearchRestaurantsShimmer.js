@@ -1,5 +1,5 @@
 import React from 'react'
-import ResCardShimmer from './resCardShimmer'
+import ResCardShimmer from "./ResCardShimmer"
 
 const SearchRestaurantsShimmer = () => {
     return (
